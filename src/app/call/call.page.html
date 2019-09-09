@@ -1,0 +1,50 @@
+
+<ion-header>
+
+    <ion-toolbar>
+              <ion-buttons slot="start">
+                <ion-back-button></ion-back-button>
+              </ion-buttons>
+           
+      <ion-title text-center>
+        <h3>Request a Call</h3>
+      </ion-title>
+      <ion-buttons slot="end">
+          <img src="assets/call.jpeg" width="40" height="40"/>
+        </ion-buttons>
+     
+    </ion-toolbar>
+  
+  </ion-header>
+<ion-content>
+  <div padding style="height:100%;width:100%;background:url('assets/request_call.jpeg')">
+    <div style="margin-top:30vh;">
+        <h3 style="font-weight:300;margin-top:70px;color:white">
+            Call on us any time of day or night
+          </h3>
+          <ion-item>
+              <ion-label>What would you like to talk about?</ion-label>
+              <ion-select okText="Okay" cancelText="Dismiss">
+                <ion-select-option value="1">General Health</ion-select-option>
+                <ion-select-option value="2">Diet</ion-select-option>
+                <ion-select-option value="3">Mental Health</ion-select-option>
+                <ion-select-option value="4">Exercise</ion-select-option>
+                <ion-select-option value="5">Sleep</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+                <ion-label>When would you like a call?</ion-label>
+                <ion-select okText="Okay" cancelText="Dismiss">
+                  <ion-select-option value="1">Request a Call Back Now</ion-select-option>
+                  <ion-select-option value="2">Schedule a Call</ion-select-option>
+                  </ion-select>
+                  </ion-item>
+            <button class="auth-button" (click)="signupSubmit()"><p style="color:black;font-size:1.4em;">
+                Submit
+            </p></button>
+            
+    </div>
+     
+    </div>
+    
+</ion-content>

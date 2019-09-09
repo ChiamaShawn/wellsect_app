@@ -1,0 +1,33 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+    <div padding>
+      <img padding src="assets/logo.jpeg"/>
+    </div>
+    <div padding class="button-container">
+        <form [formGroup]="loginForm" style="margin-bottom:8px;">
+          <ion-item>
+            <ion-label>
+              <h3>Email Address</h3>
+            </ion-label>
+            <ion-input formControlName="email">
+
+            </ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              <h3>Password</h3>
+            </ion-label>
+            <ion-input type="password" formControlName="password">
+
+            </ion-input>
+          </ion-item>
+          </form>
+        
+          <button class="auth-button" (click)="loginRequest()"><p style="color:black;font-size:1.4em;">
+            Sign In
+          </p></button>
+    </div>
+</ion-content>

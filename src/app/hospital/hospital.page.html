@@ -1,0 +1,18 @@
+<ion-header> </ion-header>
+
+<ion-content>
+  <div #map id="map"></div>
+  <ion-item *ngFor="let item of hospitals">
+    <ion-avatar item-left>
+      <ion-icon name="pin" style="width:100%;height:100%"></ion-icon>
+    </ion-avatar>
+    <ion-row padding>
+       <p>{{ item.name }}</p>
+    </ion-row>
+    <ion-row item-right>
+      <ion-col padding>
+        <p>{{ item.vicinity | slice: 0:20 }}</p>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+</ion-content>

@@ -1,0 +1,58 @@
+
+<ion-content>
+  <div style="background: url('assets/signup.jpeg');width:100vw;height:100vh;">
+      <div text-center padding>
+          <img padding style="margin:auto" src="assets/icon.png" width="200" height="200"/>
+        </div>
+        <div  padding class="button-container">
+            <form [formGroup]="signupForm" style="margin-bottom:8px;">
+                <ion-item>
+                    <ion-label>
+                      <h3>First Name</h3>
+                    </ion-label>
+                    <ion-input formControlName="first_name">
+        
+                    </ion-input>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label>
+                        <h3>Last Name</h3>
+                      </ion-label>
+                      <ion-input formControlName="last_name">
+          
+                      </ion-input>
+                    </ion-item>
+              <ion-item>
+                <ion-label>
+                  <h3>Email Address</h3>
+                </ion-label>
+                <ion-input formControlName="email">
+    
+                </ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label>
+                  <h3>Phone Number (Optional)</h3>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>
+                  <h3>Promo Code (If you have one)</h3>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>
+                  <h3>Password</h3>
+                </ion-label>
+                <ion-input type="password" formControlName="password">
+    
+                </ion-input>
+              </ion-item>
+              </form>
+              <button class="auth-button" (click)="signupSubmit()"><p style="color:black;font-size:1.4em;">
+                Sign Up
+              </p></button>
+        </div>
+  </div>
+   
+</ion-content>

@@ -1,0 +1,103 @@
+<ion-header> 
+    <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+     
+<ion-title text-center>
+  <h3>Programs</h3>
+</ion-title>
+<ion-buttons slot="end">
+    <img src="assets/programs.jpeg" width="40" height="40"/>
+  </ion-buttons>
+
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div style="height:100%;background:black; padding-top:30%;">
+    <ion-row>
+      <ion-col>
+        <ion-card (click)="notification()" class="yellow" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Mental <br />Health
+          </h6>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card (click)="notification()" class="blue" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Healthy<br />
+            Heart
+          </h6>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card (click)="notification()" class="blue" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Healthy <br />Eating
+          </h6>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card (click)="notification()" class="yellow" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Regular <br />
+            Exercising
+          </h6>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card (click)="notification()" class="yellow" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Diabetes <br />
+            Prevention
+          </h6>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card (click)="notification()" class="blue" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Diabetes <br />Management
+          </h6>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card (click)="notification()" class="blue" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Hypertension <br>Prevention
+          </h6>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card (click)="notification()" class="yellow" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Hypertension <br> Management
+          </h6>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card (click)="notification()" class="yellow" text-center>
+          <h6 class="black" style="font-weight:400;" text-center>
+            Smoking <br>Cessation
+          </h6>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+          <ion-card (click)="notification()" class="blue" text-center>
+              <h6 class="black" style="font-weight:400;" text-center>
+            Responsible <br>Drinking
+          </h6>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

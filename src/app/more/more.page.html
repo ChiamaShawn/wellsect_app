@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item (click)="openProfilePage()">
+        <ion-label>
+          <h3>My Profile</h3>
+        </ion-label>
+      </ion-item>
+  <ion-item (click)="openPricingPage()">
+    <ion-label>
+      <h3 >Pricing</h3>
+    </ion-label>
+  </ion-item>
+  <ion-item (click)="openHelpCenterPage()">
+      <ion-label>
+        <h3>Help Center</h3>
+      </ion-label>
+    </ion-item>
+  <ion-item (click)="openPrivacyPolicyPage()">
+      <ion-label>
+        <h3>Privacy Policy</h3>
+      </ion-label>
+    </ion-item>
+    <ion-item (click)="openTermsOfUsePage()">
+        <ion-label>
+          <h3>Terms of use</h3>
+        </ion-label>
+      </ion-item>
+      <ion-item (click)="openTermsOfUsePage()">
+          <ion-label>
+            <h3>Sign Out</h3>
+          </ion-label>
+        </ion-item>
+</ion-content>

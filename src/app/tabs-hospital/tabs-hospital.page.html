@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+     
+<ion-title text-center>
+  <h3>Hospitals & Pharmacies</h3>
+</ion-title>
+<ion-buttons slot="end">
+    <img src="assets/hospitals.jpeg" width="40" height="40"/>
+  </ion-buttons>
+
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs color="light"selectedIndex="1">
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="hospitals">
+        <ion-icon name="medkit"></ion-icon>
+        <ion-label>Hospitals</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="hospital-listing">
+        <ion-icon name="list"></ion-icon>
+        <ion-label>Hospitals List</ion-label>
+      </ion-tab-button>
+      <ion-tab-button>
+        <ion-icon name="medkit"></ion-icon>
+        <ion-label>Pharmacies</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button >
+        <ion-icon name="list"></ion-icon>
+        <ion-label>Pharmacies List</ion-label>
+      </ion-tab-button>
+  
+
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>

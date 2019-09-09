@@ -1,5 +1,7 @@
 {
   "name": "wellsect",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

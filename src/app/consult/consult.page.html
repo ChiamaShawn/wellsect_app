@@ -1,0 +1,100 @@
+<ion-header>
+
+    <ion-toolbar>
+              <ion-buttons slot="start">
+                <ion-back-button></ion-back-button>
+              </ion-buttons>
+           
+      <ion-title text-center>
+        <h3>Consult a Doctor</h3>
+      </ion-title>
+      <ion-buttons slot="end">
+          <img src="assets/consult.jpeg" width="40" height="40"/>
+        </ion-buttons>
+     
+    </ion-toolbar>
+  
+  </ion-header>
+  <ion-content padding>
+      <!-- <div id="profile-bg"></div>
+      <div id="content">
+        <div id="profile-info">
+          <img id="profile-image" src="https://www.sbp-creative.com/wp-content/uploads/2017/01/profile-placeholder.png">
+          <h3 id="profile-name">Doctor Name</h3>  
+        </div>
+        <ion-item>
+          <p item-left>Doctor's name:</p>
+          <p item-right style="padding-left:8px;">John Doe </p>
+        </ion-item>
+        <ion-item>
+            <p item-left>Years of Medical Experience:</p>
+            <p item-right style="padding-left:8px;">5 Years</p>
+          </ion-item>
+          <ion-item>
+              <p  item-left>Going Rate:</p>
+              <p item-right style="padding-left:8px;">Ksh. xxx </p>
+            </ion-item>
+            
+      </div>
+      <ion-button (click)="presentAlert()" margin-top text-center expand="block"> 
+          <h3 style="font-weight:300;font-size:1.0em">Book Consult</h3>
+      </ion-button> -->
+      <ion-item>
+
+        <ion-col text-center>
+            <img src="http://pronksiapartments.ee/wp-content/uploads/2015/10/placeholder-face-big.png" height="70" width="70"/>
+          <h3 text-center padding>
+            Dr. Leif Bundi
+          </h3>
+          <p text-center>
+            The Karen Hospital
+          </p>
+          <p text-center>
+            $5 per 15 minute consult
+          </p>
+          <ion-button text-center block (click)="presentAlert()">
+            <p>Book Consult</p>
+          </ion-button>
+        </ion-col>
+       
+      </ion-item>
+      <ion-item>
+       
+        <ion-col text-center>
+            <img src="http://pronksiapartments.ee/wp-content/uploads/2015/10/placeholder-face-big.png" height="70" width="70"/>
+          <h3 text-center padding>
+            Dr. Tom Sewe
+          </h3>
+          <p text-center>
+            Columbia Healthcare
+          </p>
+          <p text-center>
+            $7.50 per 15 minute consult
+          </p>
+          <ion-button text-center block (click)="presentAlert()">
+              <p>Book Consult</p>
+            </ion-button>
+        </ion-col>
+        
+      </ion-item>
+      <ion-item>
+        
+        <ion-col text-center>
+            <img src="http://pronksiapartments.ee/wp-content/uploads/2015/10/placeholder-face-big.png" height="70" width="70"/>
+          <h3 text-center padding>
+            Dr. Ruchir Patel
+          </h3>
+          <p text-center>
+            Medanta Hospital
+          </p>
+          <p text-center>
+            $10 per 15 minute consult
+          </p>
+          <ion-button text-center block (click)="presentAlert()">
+              <p>Book Consult</p>
+            </ion-button>
+        </ion-col>
+        
+      </ion-item>
+  </ion-content>
+  
